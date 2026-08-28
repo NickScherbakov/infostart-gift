@@ -1,3 +1,5 @@
+[![Infostart](https://infostart.ru/bitrix/templates/sandbox_empty/assets/tpl/abo/img/logo.svg)](https://infostart.ru/public/2775667)
+
 # AdminClusterMonitor
 
 Практический учебный проект для администраторов 1С на сайте infostart.ru ["AdminClusterMonitor — учебный проект для администраторов 1С"] (https://infostart.ru/public/2775667): мониторинг и безопасное управление процессами кластера 1С в среде Linux.
