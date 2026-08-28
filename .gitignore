@@ -1,0 +1,7 @@
+*.log
+*.csv
+!example_report.csv
+.DS_Store
+*.epf
+config.conf
+profiles.json

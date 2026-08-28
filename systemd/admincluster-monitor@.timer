@@ -1,0 +1,10 @@
+[Unit]
+Description=Timer for AdminClusterMonitor service for profile %i
+
+[Timer]
+OnBootSec=2min
+OnUnitActiveSec=1h
+Persistent=true
+
+[Install]
+WantedBy=timers.target

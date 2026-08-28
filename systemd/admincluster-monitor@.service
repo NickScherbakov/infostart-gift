@@ -1,0 +1,13 @@
+[Unit]
+Description=AdminClusterMonitor service for profile %i
+After=network.target
+
+[Service]
+Type=simple
+User=1c
+EnvironmentFile=/etc/admincluster/config.conf
+ExecStart=/opt/admincluster/admincluster_run.sh --profile %i
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=admincluster-monitor-%i
+Restart=on-failure

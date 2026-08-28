@@ -1,0 +1,14 @@
+{
+  "prod": {
+    "Name": "prod",
+    "RasHost": "127.0.0.1",
+    "RasPort": 1545,
+    "Description": "Продуктивный кластер"
+  },
+  "test": {
+    "Name": "test",
+    "RasHost": "127.0.0.1",
+    "RasPort": 1546,
+    "Description": "Тестовый кластер"
+  }
+}
