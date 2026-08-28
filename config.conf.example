@@ -1,0 +1,9 @@
+# /etc/admincluster/config.conf
+# Настройки уведомлений и путей для AdminClusterMonitor
+
+TELEGRAM_BOT_TOKEN="000000:XXXXXXXXXXXXXXXXXXXXXXXX"
+TELEGRAM_CHAT_ID="-1001234567890"
+ALERT_EMAIL="ops@example.com"
+
+EPF_PATH="/opt/admincluster/AdminClusterMonitor.epf"
+HELPER_PATH="/opt/admincluster"
